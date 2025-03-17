@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPSILON</title>
+    <!-- Library -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Marcellus&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/scss/main.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="top-area">
+        <header id="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <nav class="navbar navbar-expand-xl">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img src="assets/images/Epsilon Logo 1.png" alt="img" />
+                      <h2>TG Rera: P02400009348</h2>
+                    </a>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <div class="nav-imge">
+                        <img src="assets/images/img1.png" alt="img" />
+                      </div>
+                      <div id="navicon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navbar-nav nav ms-auto">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="#home"
+                            >Home</a
+                          >
+                        </li>
+                        <li class="nav-item dropdown">
+                          <div class="btn-group">
+                            
+                            <button
+                              class="btn dropdown-toggle"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                              onclick="scrollToSection()"
+                            >
+                              About Us
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li class="py-2">
+                                <a class="dropdown-item py-3" href="#"
+                                  >Menu item</a
+                                >
+                              </li>
+                              <li class="py-2">
+                                <a class="dropdown-item py-3" href="#"
+                                  >Menu item</a
+                                >
+                              </li>
+                              <li class="py-2">
+                                <a class="dropdown-item py-3" href="#"
+                                  >Menu item</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Project">Project Highlights</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#buyers">Construction Update</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#video">Floor Plans</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#news">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                         <a href="#footer"> <button class="nav-link nav-btn">Contact Us</button></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="mid-area" id="home">
+          <div class="row">
+            <div class="col-12">
+              <h1>Inspired by Greece,</h1>
+            </div>
+            <div class="col-12">
+              <h2>Designed for Grandeur</h2>
+            </div>
+            <div
+              class="col-12 d-flex justify-content-center align-items-center"
+            >
+              <button>
+                Download Brochure
+                <img src="assets/images/down-arrow.png" alt="img" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="lower-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="text-box">
+                  <h1>Inspired by Greece,</h1>
+                  <h2>Designed for Grandeur</h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex">
+                  <button>Download Brochure</button>
+                  <img src="assets/images/arrow.png" alt="img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main id="main" role="main">
+        <section id="about">
+          <div class="blur"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>About bridge Epsilon</h3>
+                    <h1>A Vision of Greece at Tukkuguda</h1>
+                    <p>
+                      Bridge Epsilon Villas brings the timeless elegance of
+                      Greek architecture to Hyderabad, offering an exclusive
+                      enclave of East-facing villas that blend luxury, nature,
+                      and mythology. Every detail, from the iconic columns to
+                      the theme-based landscapes, is designed for an inspired
+                      lifestyle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <img src="assets/images/about.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="grand" id="Project">
+          <div class="container">
+            <div class="star1">
+              <img src="assets/images/star.png" alt="img" />
+            </div>
+            <div class="star2">
+              <img src="assets/images/star.png" alt="img" />
+            </div>
+            <div class="star3">
+              <img src="assets/images/star.png" alt="img" />
+            </div>
+            <div class="star4">
+              <img src="assets/images/star.png" alt="img" />
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2>Project highlights</h2>
+                <h1> The Bridge Epsilon Lifestyle</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-center">
+                <p>A deep dive into the unique features.</p>
+              </div>
+            </div>
+
+            <div
+              class="container d-flex justify-content-center align-items-center"
+            >
+              <div class="box-img">
+                <img src="assets/images/box-img.png" alt="img" />
+              </div>
+              <div class="boxes">
+                <div
+                  class="row d-flex justify-content-center align-items-center"
+                >
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (2).png" alt="" />
+                      <p class="px-4">All East facing Villas</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (1).png" alt="" />
+                      <p class="px-2">Biggest Master Bedroom in segment</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (2).png" alt="" />
+                      <p class="px-2">Villas With Internal Courtyard</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="row d-flex justify-content-center align-items-center"
+                >
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (2).png" alt="" />
+                      <p class="px-3">Exclusive Private Villas</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon.png" alt="" />
+                      <p class="px-4">13ft High Ground Floor</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                </div>
+
+                <div
+                  class="row d-flex justify-content-center align-items-center"
+                >
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (5).png" alt="" />
+                      <p class="px-4">2 Maid Rooms With Attached Toilets</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box py-3">
+                      <img src="assets/images/icon (4).png" alt="" />
+                      <p class="px-3">Private Podium Parking</p>
+                    </div>
+                  </div>
+                  <div class="col-5-custom hidenbox">
+                    <div class="featured-box"></div>
+                  </div>
+                  <div class="col-5-custom">
+                    <div class="featured-box">
+                      <img src="assets/images/icon (3).png" alt="" />
+                      <p class="px-3">Lushly Landscaped Entrance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" >
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3>Gallery</h3>
+                <h1>The Finest of Leisure & Luxury</h1>
+              </div>
+            </div>
+
+            <div id="card">
+              <div class="row">
+                <!-- cadr 1 -->
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img src="assets/images/card/card.png" alt="img" />
+                    <div class="card-img">
+                      <div class="img-box">
+                        <!-- Bootstrap Modal -->
+                        <div
+                          class="modal fade"
+                          id="Modal1"
+                          tabindex="-1"
+                          aria-labelledby="myModalLabel"
+                          aria-hidden="true"
+                        >
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
+                              </div>
+                              <div class="modal-body">
+                                <img
+                                  src="assets/images/card/card.png"
+                                  alt="img"
+                                  class="w-100"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <img
+                          src="assets/images/card/btn-circle.png"
+                          alt="img"
+                          class="click-me click1"
+                          data-bs-toggle="modal"
+                          data-bs-target="#Modal1"
+                        />
+                        <img src="assets/images/card/img1.png" alt="img" />
+                        <h3>The Delphi Club</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <h2>The Delphi Club</h2>
+                    <p>
+                      The Delphi Club at Bridge Epsilon offers unique features,
+                      spacious facilities suitable for elegant private
+                      gatherings, wedding celebrations and exclusive dinner
+                      parties.
+                    </p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-lg-4">
+                  <div class="card2">
+                    <img src="assets/images/card/card2.png" alt="img" />
+                    <div class="card-img">
+                      <div class="img-box" id="box2">
+                        <div
+                        class="modal fade"
+                        id="Modal2"
+                        tabindex="-1"
+                        aria-labelledby="myModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="assets/images/card/card2.png"
+                                alt="img"
+                                class="w-100"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <img
+                          src="assets/images/card/btn-circle.png"
+                          alt="img"
+                          class="click-me click2"
+                          data-bs-toggle="modal"
+                          data-bs-target="#Modal2"
+                        />
+                        <img src="assets/images/card/img2.png" alt="img" />
+                        <h3>Zeus Pavilion</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <h2>Zeus Pavilion</h2>
+                    <p>
+                      The Zeus Pavilion at Bridge Epsilon features top-tier
+                      sports facilities, including badminton courts, pickleball,
+                      and table tennis, for active recreation and competition.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="col-lg-4">
+                  <div class="card3">
+                    <img src="assets/images/card/card3.png" alt="img" />
+                    <div class="card-img">
+                      <div class="img-box" id="box3">
+
+                        <div
+                        class="modal fade"
+                        id="Modal3"
+                        tabindex="-1"
+                        aria-labelledby="myModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="assets/images/card/card3.png"
+                                alt="img"
+                                class="w-100"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <img
+                          src="assets/images/card/btn-circle.png"
+                          alt="img"
+                          class="click-me click3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#Modal3"
+                        />
+                        <img src="assets/images/card/img3.png" alt="img" />
+                        <h3>A Perfect Environment</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <h2>A Perfect Environment</h2>
+                    <p>
+                      Common garden areas feature bespoke natural seating,
+                      streaked woods, smooth sand, and bronzed reflection tiles,
+                      embodying Bridge Epsilon’s iconic standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="video">
+              <img src="assets/images/Video/video.png" alt="img" />
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <button class="btn-download">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1259_1404)">
+                            <path
+                              d="M7.71387 13.7143L11.9996 18M11.9996 18L16.2853 13.7143M11.9996 18V6"
+                              stroke="white"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M11.9998 23.1426C14.9551 23.1426 17.7893 21.9687 19.879 19.879C21.9687 17.7893 23.1426 14.9551 23.1426 11.9998C23.1426 9.04452 21.9687 6.21029 19.879 4.1206C17.7893 2.03091 14.9551 0.856934 11.9998 0.856934C9.04452 0.856934 6.21029 2.03091 4.1206 4.1206C2.03091 6.21029 0.856934 9.04452 0.856934 11.9998C0.856934 14.9551 2.03091 17.7893 4.1206 19.879C6.21029 21.9687 9.04452 23.1426 11.9998 23.1426Z"
+                              stroke="white"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1259_1404">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        download brochure
+                      </button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="btn-plans">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1259_1404)">
+                            <path
+                              d="M7.71387 13.7143L11.9996 18M11.9996 18L16.2853 13.7143M11.9996 18V6"
+                              stroke="#B08B54"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M11.9998 23.1426C14.9551 23.1426 17.7893 21.9687 19.879 19.879C21.9687 17.7893 23.1426 14.9551 23.1426 11.9998C23.1426 9.04452 21.9687 6.21029 19.879 4.1206C17.7893 2.03091 14.9551 0.856934 11.9998 0.856934C9.04452 0.856934 6.21029 2.03091 4.1206 4.1206C2.03091 6.21029 0.856934 9.04452 0.856934 11.9998C0.856934 14.9551 2.03091 17.7893 4.1206 19.879C6.21029 21.9687 9.04452 23.1426 11.9998 23.1426Z"
+                              stroke="#B08B54"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1259_1404">
+                              <rect width="24" height="24" fill="#B08B54" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        Floor Plans
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="buyers">
+          <div class="star1"></div>
+          <div class="star2"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2>Testimonials & Community Vision</h2>
+                <h1>Building trust with buyers.</h1>
+              </div>
+            </div>
+
+            <!-- slider starts from here  -->
+            <div class="slick-carousel">
+              <div>
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/Slider/bg.png"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="assets/images/Slider/play.png"
+                      alt="img"
+                      class="play"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="assets/images/Slider/img.png" alt="img" />
+                      </div>
+                      <div
+                        class="col-8 d-flex justify-content-start align-items-center"
+                      >
+                        <h3 class="card-text">Name</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/Slider/bg.png"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="assets/images/Slider/play.png"
+                      alt="img"
+                      class="play"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="assets/images/Slider/img.png" alt="img" />
+                      </div>
+                      <div
+                        class="col-8 d-flex justify-content-start align-items-center"
+                      >
+                        <h3 class="card-text">Name</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/Slider/bg.png"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="assets/images/Slider/play.png"
+                      alt="img"
+                      class="play"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="assets/images/Slider/img.png" alt="img" />
+                      </div>
+                      <div
+                        class="col-8 d-flex justify-content-start align-items-center"
+                      >
+                        <h3 class="card-text">Name</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/Slider/bg.png"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="assets/images/Slider/play.png"
+                      alt="img"
+                      class="play"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="assets/images/Slider/img.png" alt="img" />
+                      </div>
+                      <div
+                        class="col-8 d-flex justify-content-start align-items-center"
+                      >
+                        <h3 class="card-text">Name</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/Slider/bg.png"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="assets/images/Slider/play.png"
+                      alt="img"
+                      class="play"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="assets/images/Slider/img.png" alt="img" />
+                      </div>
+                      <div
+                        class="col-8 d-flex justify-content-start align-items-center"
+                      >
+                        <h3 class="card-text">Name</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3>News & Events</h3>
+                <h1>Latest from our blog</h1>
+              </div>
+            </div>
+
+            <div id="card">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/News/img.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h2>
+                        Why East-Facing Villas are Perfect for Positive Energy
+                        and Modern Elegance
+                      </h2>
+                      <h3>February 27, 2024</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/News/img.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h2>
+                        Ultra-Luxury Villas Crafted for Exclusive Living in
+                        Hyderabad
+                      </h2>
+                      <h3 class="card-h3">February 3, 2024</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="assets/images/News/img.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h2>
+                        The Pinnacle of Prestige: Exclusive Villas in
+                        Hyderabad’s Prime Location
+                      </h2>
+                      <h3>December 16, 2024</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="strategic">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2>Location Advantage</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1>Strategic positioning of</h1>
+                <h1>Bridge Epsilon Villas</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-5">
+                <h2>Tukkuguda – A Gateway to the Future</h2>
+
+                <h3>02-05 MIN</h3>
+                <ul>
+                  <li>ORR Exit 14</li>
+                  <li>Fab City</li>
+                  <li>Pedda Golconda</li>
+                  <li>Sri Sri Academy</li>
+                  <li>Bhashyam Blooms - The School</li>
+                </ul>
+                <h3>10-15 MIN</h3>
+                <ul>
+                  <li>RGI Airport</li>
+                  <li>The Aga Khan Academy</li>
+                  <li>Manchester Global School</li>
+                  <li>Statue Of Equality</li>
+                </ul>
+                <h3>30-45 MIN</h3>
+                <ul>
+                  <li>Apollo Hospital</li>
+                  <li>Kamineni Hospital</li>
+                  <li>Gachibowli</li>
+                  <li>Financial District</li>
+                  <li>Kondapur</li>
+                  <li>Jubilee Hills</li>
+                  <li>LB Nagar</li>
+                  <li>Ramoji Film City</li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <img src="assets/images/map.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="fotter-top-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h2>Newsletter</h2>
+                <h1>Schedule a Private Tour</h1>
+              </div>
+              <div
+                class="col-lg-6 d-flex justify-content-lg-end align-items-center"
+              >
+                <input
+                  type="text"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <button>Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-meduim-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="row">
+                  <div
+                    class="col-lg-3 d-lg-flex justify-content-center align-items-center flex-column"
+                  >
+                    <img src="assets/images/footer/img1.png" alt="img" />
+                    <img
+                      src="assets/images/footer/f-logo.png"
+                      alt="img"
+                      class="my-2 last-img"
+                    />
+                  </div>
+                  <div class="col-lg-9">
+                    <p>
+                      Site Address: S.Y.No: 239 & 240, Lemoor road, Sreenagar
+                      Village,<br />
+                      Maheshwaram Mandal, Hyderabad, Telangana - 501 359 <br />
+                      <br />
+                      H.O: 107, Lumbini Avenue, Gachibowli,<br />
+                      Hyderabad, Telangana - 500032
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="row">
+                  <div class="col-xl-7 ps-xxl-5">
+                    <div
+                      class="d-flex justify-content-start align-items-center"
+                    >
+                      <img src="assets/images/footer/icon (1).png" alt="img" />
+                      <p>sales@bridgegroupindia.com</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-start align-items-center"
+                    >
+                      <img src="assets/images/footer/icon (2).png" alt="img" />
+                      <p>+91 88755 56789</p>
+                    </div>
+                  </div>
+                  <div class="col-xl-5">
+                    <h2>
+                      Terms & Conditions <br />
+                      Privacy Policy
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-lower-area">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-12 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="assets/images/footer/divider.png"
+                  alt="img"
+                  class="divider"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-12 d-flex justify-content-between align-items-center"
+              >
+                <div class="social-icons">
+                  <div class="icons">
+                    <a href="https://www.facebook.com/bridgegroupindia"
+                      ><img src="assets/images/footer/facebook.png" alt="img"
+                    /></a>
+                    <a href="https://www.youtube.com/@BridgeGroupIndia"
+                      ><img src="assets/images/footer/twitter.png" alt="img"
+                    /></a>
+                    <a href="https://www.instagram.com/bridgegroup_india/"
+                      ><img src="assets/images/footer/linkedin.png" alt="img"
+                    /></a>
+                  </div>
+                </div>
+                <p>&copy; 2025 Epsilon, All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <!-- All js Goes here -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- jQuery and Slick JS -->
+   <script>
+    function scrollToSection() {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    }
+   </script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+</html>

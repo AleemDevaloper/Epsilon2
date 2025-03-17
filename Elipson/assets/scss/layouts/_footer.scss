@@ -1,0 +1,165 @@
+#footer {
+  margin-top: 144px;
+  background: #b08b54;
+  .fotter-top-area {
+    padding-top: 50px;
+    .row {
+      h2 {
+        font-family: $f-secondary;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 8%;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-family: $f-primary;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+      input {
+        background: #ffffff1a;
+        padding: 20px 160px 20px 24px;
+        @include max(1200px){
+          padding: 20px 80px 20px 24px;
+        }
+        @include max(993px){
+          margin: 20px 0px;
+          padding: 20px 160px 20px 24px;
+        }
+        @include max(560px){
+          margin: 20px 0px;
+          padding: 20px 100px 20px 24px;
+        }
+        @include max(470px){
+          margin: 20px 0px;
+          padding: 20px 70px 20px 24px;
+        }
+        @include max(440px){
+          margin: 20px 0px;
+          padding: 12px 50px 12px 12px;
+        }
+        @include max(370px){
+          margin: 20px 0px;
+          padding: 12px 20px 12px 12px;
+        }
+        @include max(370px){
+          margin: 20px 0px;
+          padding: 12px 10px 12px 10px;
+        }
+      }
+      input::placeholder {
+        font-family: $f-secondary;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+      }
+      button {
+        font-family: $f-secondary;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 8%;
+        text-transform: uppercase;
+        padding: 24px 40px;
+        background: #ffffff;
+        color: #b08b54;
+        @include max(440px){
+          margin: 20px 0px;
+          padding: 17px 20px;
+        }
+        @include max(370px){
+          margin: 20px 0px;
+          padding: 17px 10px;
+        }
+      }
+    }
+  }
+  .footer-meduim-area {
+    margin-top: 12px;
+    .row {
+      .col-lg-7 {
+        .row {
+          .last-img {
+            background: #ffffff;
+          }
+          p {
+            font-family: $f-btn;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-top: 32px;
+          }
+        }
+      }
+      .col-lg-5 {
+        .row {
+          margin-top: 32px;
+          p {
+            font-family: $f-secondary;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            color: #ffffff;
+            margin-left: 5px;
+          }
+        }
+        h2 {
+          font-family: $f-secondary;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+          letter-spacing: 0%;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .footer-lower-area {
+    @include max(768px) {
+      padding: 30px 0px;
+      padding-top: 50px;
+    }
+    .col-12 {
+      position: relative;
+      .divider {
+        margin-top: 23px;
+      }
+    }
+
+    .social-icons {
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          margin: 0px 4px;
+        }
+      }
+    }
+    p {
+      font-family: $f-secondary;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #ffffff;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      @include max(768px) {
+        margin-top: 80px;
+      }
+    }
+  }
+}
