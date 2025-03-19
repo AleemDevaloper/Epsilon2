@@ -38,12 +38,13 @@
     />
     <!-- Main css -->
     <link rel="stylesheet" href="assets/scss/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div id="wrapper">
       <div class="top-area">
         <header id="header">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
               <div class="col-12">
                 <nav class="navbar navbar-expand-xl">
@@ -85,7 +86,6 @@
                         </li>
                         <li class="nav-item dropdown">
                           <div class="btn-group">
-                            
                             <button
                               class="btn dropdown-toggle"
                               type="button"
@@ -95,30 +95,17 @@
                             >
                               About Us
                             </button>
-                            <ul class="dropdown-menu">
-                              <li class="py-2">
-                                <a class="dropdown-item py-3" href="#"
-                                  >Menu item</a
-                                >
-                              </li>
-                              <li class="py-2">
-                                <a class="dropdown-item py-3" href="#"
-                                  >Menu item</a
-                                >
-                              </li>
-                              <li class="py-2">
-                                <a class="dropdown-item py-3" href="#"
-                                  >Menu item</a
-                                >
-                              </li>
-                            </ul>
                           </div>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#Project">Project Highlights</a>
+                          <a class="nav-link" href="#Project"
+                            >Project Highlights</a
+                          >
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#buyers">Construction Update</a>
+                          <a class="nav-link" href="#buyers"
+                            >Construction Update</a
+                          >
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#gallery">Gallery</a>
@@ -130,7 +117,11 @@
                           <a class="nav-link" href="#news">Blog</a>
                         </li>
                         <li class="nav-item">
-                         <a href="#footer"> <button class="nav-link nav-btn">Contact Us</button></a>
+                          <a href="#contact">
+                            <button class="nav-link nav-btn">
+                              Contact Us
+                            </button></a
+                          >
                         </li>
                       </ul>
                     </div>
@@ -151,7 +142,7 @@
             <div
               class="col-12 d-flex justify-content-center align-items-center"
             >
-              <button>
+              <button data-bs-toggle="modal" data-bs-target="#borModal">
                 Download Brochure
                 <img src="assets/images/down-arrow.png" alt="img" />
               </button>
@@ -169,7 +160,9 @@
               </div>
               <div class="col-lg-4">
                 <div class="d-flex">
-                  <button>Download Brochure</button>
+                  <button data-bs-toggle="modal" data-bs-target="#borModal">
+                    Download Brochure
+                  </button>
                   <img src="assets/images/arrow.png" alt="img" />
                 </div>
               </div>
@@ -185,9 +178,25 @@
               <div class="col-lg-5">
                 <div class="row">
                   <div class="col-12">
-                    <h3>About bridge Epsilon</h3>
-                    <h1>A Vision of Greece at Tukkuguda</h1>
-                    <p>
+                    <h3
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                      data-aos-delay="400"
+                    >
+                      About bridge Epsilon
+                    </h3>
+                    <h1
+                      data-aos="fade-up"
+                      data-aos-duration="1050"
+                      data-aos-delay="400"
+                    >
+                      A Vision of Greece at Tukkuguda
+                    </h1>
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="1100"
+                      data-aos-delay="400"
+                    >
                       Bridge Epsilon Villas brings the timeless elegance of
                       Greek architecture to Hyderabad, offering an exclusive
                       enclave of East-facing villas that blend luxury, nature,
@@ -199,12 +208,17 @@
                 </div>
               </div>
               <div class="col-lg-7">
-                <img src="assets/images/about.png" alt="img" />
+                <img
+                  src="assets/images/about.png"
+                  alt="img"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                />
               </div>
             </div>
           </div>
         </section>
-
         <section class="grand" id="Project">
           <div class="container">
             <div class="star1">
@@ -221,21 +235,42 @@
             </div>
             <div class="row">
               <div class="col-12 text-center">
-                <h2>Project highlights</h2>
-                <h1> The Bridge Epsilon Lifestyle</h1>
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  Project highlights
+                </h2>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                >
+                  The Bridge Epsilon Lifestyle
+                </h1>
               </div>
             </div>
-
             <div class="row">
               <div class="col-12 text-center">
-                <p>A deep dive into the unique features.</p>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                  data-aos-delay="400"
+                >
+                  A deep dive into the unique features.
+                </p>
               </div>
             </div>
-
             <div
               class="container d-flex justify-content-center align-items-center"
             >
-              <div class="box-img">
+              <div
+                class="box-img"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
                 <img src="assets/images/box-img.png" alt="img" />
               </div>
               <div class="boxes">
@@ -243,7 +278,12 @@
                   class="row d-flex justify-content-center align-items-center"
                 >
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (2).png" alt="" />
                       <p class="px-4">All East facing Villas</p>
                     </div>
@@ -252,7 +292,12 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1050"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (1).png" alt="" />
                       <p class="px-2">Biggest Master Bedroom in segment</p>
                     </div>
@@ -261,13 +306,17 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1100"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (2).png" alt="" />
                       <p class="px-2">Villas With Internal Courtyard</p>
                     </div>
                   </div>
                 </div>
-
                 <div
                   class="row d-flex justify-content-center align-items-center"
                 >
@@ -275,7 +324,12 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1150"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (2).png" alt="" />
                       <p class="px-3">Exclusive Private Villas</p>
                     </div>
@@ -284,7 +338,12 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon.png" alt="" />
                       <p class="px-4">13ft High Ground Floor</p>
                     </div>
@@ -293,12 +352,16 @@
                     <div class="featured-box"></div>
                   </div>
                 </div>
-
                 <div
                   class="row d-flex justify-content-center align-items-center"
                 >
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1250"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (5).png" alt="" />
                       <p class="px-4">2 Maid Rooms With Attached Toilets</p>
                     </div>
@@ -307,7 +370,12 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box py-3">
+                    <div
+                      class="featured-box py-3"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (4).png" alt="" />
                       <p class="px-3">Private Podium Parking</p>
                     </div>
@@ -316,7 +384,12 @@
                     <div class="featured-box"></div>
                   </div>
                   <div class="col-5-custom">
-                    <div class="featured-box">
+                    <div
+                      class="featured-box"
+                      data-aos="fade-up"
+                      data-aos-duration="1350"
+                      data-aos-delay="400"
+                    >
                       <img src="assets/images/icon (3).png" alt="" />
                       <p class="px-3">Lushly Landscaped Entrance</p>
                     </div>
@@ -326,52 +399,70 @@
             </div>
           </div>
         </section>
-
-        <section id="gallery" >
+        <section id="gallery">
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <h3>Gallery</h3>
-                <h1>The Finest of Leisure & Luxury</h1>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  Gallery
+                </h3>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                >
+                  The Finest of Leisure & Luxury
+                </h1>
               </div>
             </div>
-
             <div id="card">
               <div class="row">
                 <!-- cadr 1 -->
                 <div class="col-lg-4">
-                  <div class="card">
+                             <!-- Bootstrap Modal -->
+                             <div
+                             class="modal fade img-popup"
+                             id="Modal1"
+                             tabindex="-1"
+                             aria-labelledby="myModalLabel"
+                             aria-hidden="true"
+                           >
+                             <div class="modal-dialog">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <button
+                                     type="button"
+                                     class="btn-close"
+                                     data-bs-dismiss="modal"
+                                     aria-label="Close"
+                                   ></button>
+                                 </div>
+                                 <div class="modal-body">
+                                   <img
+                                     src="assets/images/card/card.png"
+                                     alt="img"
+                                     class="w-100"
+                                   />
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                  <div
+                    class="card"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
                     <img src="assets/images/card/card.png" alt="img" />
                     <div class="card-img">
                       <div class="img-box">
-                        <!-- Bootstrap Modal -->
-                        <div
-                          class="modal fade"
-                          id="Modal1"
-                          tabindex="-1"
-                          aria-labelledby="myModalLabel"
-                          aria-hidden="true"
-                        >
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <button
-                                  type="button"
-                                  class="btn-close"
-                                  data-bs-dismiss="modal"
-                                  aria-label="Close"
-                                ></button>
-                              </div>
-                              <div class="modal-body">
-                                <img
-                                  src="assets/images/card/card.png"
-                                  alt="img"
-                                  class="w-100"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+               
+
+                      
                         <img
                           src="assets/images/card/btn-circle.png"
                           alt="img"
@@ -385,8 +476,18 @@
                     </div>
                   </div>
                   <div class="card-text">
-                    <h2>The Delphi Club</h2>
-                    <p>
+                    <h2
+                      data-aos="fade-up"
+                      data-aos-duration="1050"
+                      data-aos-delay="400"
+                    >
+                      The Delphi Club
+                    </h2>
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="1100"
+                      data-aos-delay="400"
+                    >
                       The Delphi Club at Bridge Epsilon offers unique features,
                       spacious facilities suitable for elegant private
                       gatherings, wedding celebrations and exclusive dinner
@@ -396,37 +497,44 @@
                 </div>
                 <!-- card 2 -->
                 <div class="col-lg-4">
-                  <div class="card2">
+                     <!-- Bootstrap Modal -->
+                     <div
+                     class="modal fade img-popup"
+                     id="Modal2"
+                     tabindex="-1"
+                     aria-labelledby="myModalLabel"
+                     aria-hidden="true"
+                   >
+                     <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                           <button
+                             type="button"
+                             class="btn-close"
+                             data-bs-dismiss="modal"
+                             aria-label="Close"
+                           ></button>
+                         </div>
+                         <div class="modal-body">
+                           <img
+                             src="assets/images/card/card2.png"
+                             alt="img"
+                             class="w-100"
+                           />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                  <div
+                    class="card2"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
                     <img src="assets/images/card/card2.png" alt="img" />
                     <div class="card-img">
                       <div class="img-box" id="box2">
-                        <div
-                        class="modal fade"
-                        id="Modal2"
-                        tabindex="-1"
-                        aria-labelledby="myModalLabel"
-                        aria-hidden="true"
-                      >
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <button
-                                type="button"
-                                class="btn-close"
-                                data-bs-dismiss="modal"
-                                aria-label="Close"
-                              ></button>
-                            </div>
-                            <div class="modal-body">
-                              <img
-                                src="assets/images/card/card2.png"
-                                alt="img"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                       
                         <img
                           src="assets/images/card/btn-circle.png"
                           alt="img"
@@ -440,49 +548,64 @@
                     </div>
                   </div>
                   <div class="card-text">
-                    <h2>Zeus Pavilion</h2>
-                    <p>
+                    <h2
+                      data-aos="fade-up"
+                      data-aos-duration="1050"
+                      data-aos-delay="400"
+                    >
+                      Zeus Pavilion
+                    </h2>
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="1100"
+                      data-aos-delay="400"
+                    >
                       The Zeus Pavilion at Bridge Epsilon features top-tier
                       sports facilities, including badminton courts, pickleball,
                       and table tennis, for active recreation and competition.
                     </p>
                   </div>
                 </div>
-
                 <!-- card 3 -->
                 <div class="col-lg-4">
-                  <div class="card3">
+                     <!-- Bootstrap Modal -->
+                     <div
+                     class="modal fade img-popup"
+                     id="Modal3"
+                     tabindex="-1"
+                     aria-labelledby="myModalLabel"
+                     aria-hidden="true"
+                   >
+                     <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                           <button
+                             type="button"
+                             class="btn-close"
+                             data-bs-dismiss="modal"
+                             aria-label="Close"
+                           ></button>
+                         </div>
+                         <div class="modal-body">
+                           <img
+                             src="assets/images/card/card3.png"
+                             alt="img"
+                             class="w-100"
+                           />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                  <div
+                    class="card3"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
                     <img src="assets/images/card/card3.png" alt="img" />
                     <div class="card-img">
                       <div class="img-box" id="box3">
-
-                        <div
-                        class="modal fade"
-                        id="Modal3"
-                        tabindex="-1"
-                        aria-labelledby="myModalLabel"
-                        aria-hidden="true"
-                      >
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <button
-                                type="button"
-                                class="btn-close"
-                                data-bs-dismiss="modal"
-                                aria-label="Close"
-                              ></button>
-                            </div>
-                            <div class="modal-body">
-                              <img
-                                src="assets/images/card/card3.png"
-                                alt="img"
-                                class="w-100"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                       
                         <img
                           src="assets/images/card/btn-circle.png"
                           alt="img"
@@ -496,8 +619,18 @@
                     </div>
                   </div>
                   <div class="card-text">
-                    <h2>A Perfect Environment</h2>
-                    <p>
+                    <h2
+                      data-aos="fade-up"
+                      data-aos-duration="1050"
+                      data-aos-delay="400"
+                    >
+                      A Perfect Environment
+                    </h2>
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="1100"
+                      data-aos-delay="400"
+                    >
                       Common garden areas feature bespoke natural seating,
                       streaked woods, smooth sand, and bronzed reflection tiles,
                       embodying Bridge Epsilon’s iconic standards.
@@ -506,14 +639,22 @@
                 </div>
               </div>
             </div>
-
-            <div id="video">
+            <div
+              id="video"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
               <img src="assets/images/Video/video.png" alt="img" />
               <div class="row">
                 <div class="col-12">
                   <div class="row">
                     <div class="col-md-6">
-                      <button class="btn-download">
+                      <button
+                        class="btn-download"
+                        data-bs-toggle="modal"
+                        data-bs-target="#borModal"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -582,22 +723,37 @@
             </div>
           </div>
         </section>
-
         <section id="buyers">
           <div class="star1"></div>
           <div class="star2"></div>
           <div class="container">
             <div class="row">
               <div class="col-12 text-center">
-                <h2>Testimonials & Community Vision</h2>
-                <h1>Building trust with buyers.</h1>
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  Testimonials & Community Vision
+                </h2>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                >
+                  Building trust with buyers.
+                </h1>
               </div>
             </div>
-
             <!-- slider starts from here  -->
             <div class="slick-carousel">
               <div>
-                <div class="card">
+                <div
+                  class="card"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
                   <div class="card-img">
                     <img
                       class="card-img-top"
@@ -610,7 +766,6 @@
                       class="play"
                     />
                   </div>
-
                   <div class="card-body">
                     <div class="row">
                       <div class="col-4">
@@ -625,9 +780,13 @@
                   </div>
                 </div>
               </div>
-
               <div>
-                <div class="card">
+                <div
+                  class="card"
+                  data-aos="zoom-out"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                >
                   <div class="card-img">
                     <img
                       class="card-img-top"
@@ -640,7 +799,6 @@
                       class="play"
                     />
                   </div>
-
                   <div class="card-body">
                     <div class="row">
                       <div class="col-4">
@@ -655,9 +813,13 @@
                   </div>
                 </div>
               </div>
-
               <div>
-                <div class="card">
+                <div
+                  class="card"
+                  data-aos="zoom-out"
+                  data-aos-duration="1100"
+                  data-aos-delay="400"
+                >
                   <div class="card-img">
                     <img
                       class="card-img-top"
@@ -670,7 +832,6 @@
                       class="play"
                     />
                   </div>
-
                   <div class="card-body">
                     <div class="row">
                       <div class="col-4">
@@ -685,9 +846,13 @@
                   </div>
                 </div>
               </div>
-
               <div>
-                <div class="card">
+                <div
+                  class="card"
+                  data-aos="zoom-out"
+                  data-aos-duration="1150"
+                  data-aos-delay="400"
+                >
                   <div class="card-img">
                     <img
                       class="card-img-top"
@@ -700,7 +865,6 @@
                       class="play"
                     />
                   </div>
-
                   <div class="card-body">
                     <div class="row">
                       <div class="col-4">
@@ -715,9 +879,13 @@
                   </div>
                 </div>
               </div>
-
               <div>
-                <div class="card">
+                <div
+                  class="card"
+                  data-aos="zoom-out"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
+                >
                   <div class="card-img">
                     <img
                       class="card-img-top"
@@ -730,7 +898,6 @@
                       class="play"
                     />
                   </div>
-
                   <div class="card-body">
                     <div class="row">
                       <div class="col-4">
@@ -752,15 +919,31 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <h3>News & Events</h3>
-                <h1>Latest from our blog</h1>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  News & Events
+                </h3>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                >
+                  Latest from our blog
+                </h1>
               </div>
             </div>
-
             <div id="card">
               <div class="row">
                 <div class="col-lg-4">
-                  <div class="card">
+                  <div
+                    class="card"
+                    data-aos="zoom-out"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
                     <img
                       class="card-img-top"
                       src="assets/images/News/img.png"
@@ -776,7 +959,12 @@
                   </div>
                 </div>
                 <div class="col-lg-4">
-                  <div class="card">
+                  <div
+                    class="card"
+                    data-aos="zoom-out"
+                    data-aos-duration="1050"
+                    data-aos-delay="400"
+                  >
                     <img
                       class="card-img-top"
                       src="assets/images/News/img.png"
@@ -792,7 +980,12 @@
                   </div>
                 </div>
                 <div class="col-lg-4">
-                  <div class="card">
+                  <div
+                    class="card"
+                    data-aos="zoom-out"
+                    data-aos-duration="1100"
+                    data-aos-delay="400"
+                  >
                     <img
                       class="card-img-top"
                       src="assets/images/News/img.png"
@@ -815,36 +1008,82 @@
           <div class="container">
             <div class="row">
               <div class="col-12 text-center">
-                <h2>Location Advantage</h2>
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  Location Advantage
+                </h2>
               </div>
             </div>
             <div class="row">
-              <div class="col-12 text-center">
+              <div
+                class="col-12 text-center"
+                data-aos="fade-up"
+                data-aos-duration="1050"
+                data-aos-delay="400"
+              >
                 <h1>Strategic positioning of</h1>
                 <h1>Bridge Epsilon Villas</h1>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-5">
-                <h2>Tukkuguda – A Gateway to the Future</h2>
-
-                <h3>02-05 MIN</h3>
-                <ul>
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                  data-aos-delay="400"
+                >
+                  Tukkuguda – A Gateway to the Future
+                </h2>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="1150"
+                  data-aos-delay="400"
+                >
+                  02-05 MIN
+                </h3>
+                <ul
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
+                >
                   <li>ORR Exit 14</li>
                   <li>Fab City</li>
                   <li>Pedda Golconda</li>
                   <li>Sri Sri Academy</li>
                   <li>Bhashyam Blooms - The School</li>
                 </ul>
-                <h3>10-15 MIN</h3>
-                <ul>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="1250"
+                  data-aos-delay="400"
+                >
+                  10-15 MIN
+                </h3>
+                <ul
+                  data-aos="fade-up"
+                  data-aos-duration="1300"
+                  data-aos-delay="400"
+                >
                   <li>RGI Airport</li>
                   <li>The Aga Khan Academy</li>
                   <li>Manchester Global School</li>
                   <li>Statue Of Equality</li>
                 </ul>
-                <h3>30-45 MIN</h3>
-                <ul>
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="1350"
+                  data-aos-delay="400"
+                >
+                  30-45 MIN
+                </h3>
+                <ul
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                  data-aos-delay="400"
+                >
                   <li>Apollo Hospital</li>
                   <li>Kamineni Hospital</li>
                   <li>Gachibowli</li>
@@ -856,7 +1095,13 @@
                 </ul>
               </div>
               <div class="col-lg-7">
-                <img src="assets/images/map.png" alt="img" />
+                <img
+                  src="assets/images/map.png"
+                  alt="img"
+                  data-aos="zoom-out"
+                  data-aos-duration="1050"
+                  data-aos-delay="400"
+                />
               </div>
             </div>
           </div>
@@ -937,7 +1182,7 @@
             </div>
           </div>
         </div>
-        <div class="footer-lower-area">
+        <div class="footer-lower-area" id="contact">
           <div class="container">
             <div class="row">
               <div
@@ -965,6 +1210,10 @@
                     <a href="https://www.instagram.com/bridgegroup_india/"
                       ><img src="assets/images/footer/linkedin.png" alt="img"
                     /></a>
+                    <a
+                      href="https://www.linkedin.com/company/bridge-group-india/"
+                      ><i class="fab fa-brands fa-linkedin"></i
+                    ></a>
                   </div>
                 </div>
                 <p>&copy; 2025 Epsilon, All Rights Reserved</p>
@@ -974,17 +1223,112 @@
         </div>
       </footer>
     </div>
+    <div
+      class="modal fade"
+      id="borModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Download Brochure
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              action="#"
+              method="post"
+              class="needs-validation"
+              novalidate=""
+            >
+              <div class="mb-3">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="form-control input-style"
+                  id="name"
+                  name="name"
+                  required=""
+                />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="mb-3">
+                <input
+                  placeholder="Phone Number"
+                  type="tel"
+                  class="form-control input-style"
+                  id="phone"
+                  name="phone"
+                  required=""
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid phone number.
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  placeholder="Email Adress"
+                  type="email"
+                  class="form-control input-style"
+                  id="email"
+                  name="email"
+                  required=""
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  placeholder="Message"
+                  class="form-control input-style2"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required=""
+                ></textarea>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+              <div>
+                <button class="btn form-btn" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
-
   <!-- All js Goes here -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="assets/js/main.js"></script>
   <!-- jQuery and Slick JS -->
-   <script>
+  <script>
     function scrollToSection() {
       document.getElementById("about").scrollIntoView({ behavior: "smooth" });
     }
-   </script>
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

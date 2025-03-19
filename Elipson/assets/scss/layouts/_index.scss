@@ -364,6 +364,26 @@
       margin: 50px 0px 50px 0px;
       .col-lg-4 {
         padding: 0px 17px;
+        .img-popup {
+          .modal-dialog {
+              max-width: 400px;
+            .modal-content {
+              background: none;
+              border: 0;
+              .modal-body {
+                padding: 0;
+                img {
+                  margin: 0;
+                }
+                .btn-close {
+                  position: absolute;
+                  top: 15px;
+                  right: 15px;
+                }
+              }
+            }
+          }
+        }
         .card {
           position: relative;
           box-shadow: 0px 6px 12px 0px #0000001a, 0px 22px 22px 0px #00000017,
@@ -463,21 +483,8 @@
             flex-direction: column;
             padding: 18px 45px;
             border-radius: 10px;
-            .modal-body{
-              max-width: 50%;
-             margin: 0px auto;
-             padding: 0px 0px;
-            }
-            @include max(1200px){
-              padding: 0px 30px;
-            }
-            @include max(425px){
-              padding: 0px 20px;
-              max-width: 60%;
-            }
-            @include max(316px){
-              padding: 0px 20px;
-              max-width: 70%;
+            @include max(360px){
+              padding: 10px 30px;
             }
             .click-me{
               position: absolute;
@@ -487,6 +494,9 @@
             }
             img {
               margin: 18px 0px;
+              @include max(360px){
+                margin: 4px 0px;
+              }
             }
             h3 {
               font-family: $f-secondary;
@@ -499,6 +509,7 @@
               color: #2b2a29;
             }
           }
+         
           .img-box:nth-child(1):hover{
             .click1{
               display: block;
@@ -651,10 +662,7 @@
       }
       .card {
         padding: 10px 10px;
-        box-shadow: 0px 6px 12px 0px #0000001a, 0px 22px 22px 0px #00000017,
-          0px 50px 30px 0px #0000000d, 0px 88px 35px 0px #00000003,
-          0px 138px 38px 0px #00000000;
-
+        box-shadow:0 0 10px #0000001a;
         .card-img {
           position: relative;
           .play {
@@ -886,4 +894,33 @@
       }
     }
   }
+}
+#borModal .modal-body form input {
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ABABAB;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1.5px solid #ABABAB;
+}
+#borModal .modal-body form textarea {
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ABABAB;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1.5px solid #ABABAB;
+}
+#borModal .modal-body form .form-btn {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  background: #b08b54;
+  border-radius: 5px 5px;
+  display: flex;
+  align-items: center;
 }
